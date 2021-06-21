@@ -45,7 +45,7 @@ def get_character_list():
             #print(URL)
             page_html = get(URL).text
             page = BeautifulSoup(page_html, features="html.parser")
-            rows = page.find_all('td', class_="borderClass bgColor1", width = "175") # parts with the names
+            rows = page.find_all('td', class_=["borderClass bgColor1", "borderClass bgColor2"], width = "175") # parts with the names
             if (len(rows) == 0): # 404 not found
                 break
             for r in rows:

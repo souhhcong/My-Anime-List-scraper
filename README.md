@@ -9,4 +9,4 @@ $ pip install beautifulsoup4
 ```
 
 ### Warnings
-:warning: **Constant usages can lead to restriction by MAL sites**: Be very careful here!
+:warning: **Constant usages can lead to restriction by MAL sites.**

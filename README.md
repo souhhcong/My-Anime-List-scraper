@@ -7,6 +7,10 @@ beautifulsoup4:
 ```bash
 $ pip install beautifulsoup4
 ```
+unidecode:
+```bash
+$ pip install unidecode
+```
 
 ### Warnings
 :warning: **Constant usages can lead to restriction by MAL sites.**
